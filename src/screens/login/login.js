@@ -3,6 +3,7 @@ import { View, Text, StyleSheet } from 'react-native'
 
 import UserInput from '../../components/userInput';
 import usernameImg from '../../../assets/username.png';
+import Button from '../../components/button';
 
 const login = () => {
     return (
@@ -14,7 +15,7 @@ const login = () => {
                 returnKeyType={'done'}
                 autoCorrect={false}
             />
-            <Text>aaaaaaaaaaaaaa</Text>
+            <Button />
         </View>
     )
 }
