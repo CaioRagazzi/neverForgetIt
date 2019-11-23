@@ -1,5 +1,5 @@
-import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
 
 import UserInput from '../../components/userInput';
 import usernameImg from '../../../assets/username.png';
@@ -17,8 +17,8 @@ const login = () => {
             />
             <Button />
         </View>
-    )
-}
+    );
+};
 
 const styles = StyleSheet.create({
     container: {
@@ -29,4 +29,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default login
+export default login;
